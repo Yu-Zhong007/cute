@@ -82,9 +82,13 @@ body {
 .darkest{
     background: #111028
 }
+@font-face {
+    font-family: myFirstFont;
+    src: url(/fonts/Comic\ Gecko\ Pro.ttf);
+  }
 h1,
 h2{
-    font-family: "Alfa Slab One", cursive;
+    font-family: myFirstFont;
     color: #fff;
     line-height: 1.4;
     font-weight: 700;
@@ -815,7 +819,7 @@ ol {
     border-radius: 4px;
     text-decoration: none;
     font-weight: 600;
-    font-family: "Alfa Slab One", cursive;
+    font-family: myFirstFont;
     color: #0d142f;
     padding: 0 1.7rem;
     line-height: 50px;
@@ -1857,6 +1861,9 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
         margin-left: 30px;
         margin-top: 50px;
     }
+    .hedo-wrapper.v33 img{
+        max-width: 100%;
+    }
     .bubble-wrapper.v2 h2 {
         position: relative;
         top: -312px;
@@ -1899,7 +1906,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .marquee-block p{
     display: inline-block;
     padding-left: 5px;
-    font-family: "Alfa Slab One", cursive;
+    font-family: myFirstFont;
     letter-spacing: 2px;
     margin-bottom: 0;
 }
@@ -1933,7 +1940,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .who-we-contant h4 {
     margin-bottom: 20px;
     font-size: 40px;
-    font-family: "Alfa Slab One", cursive;
+    font-family: myFirstFont;
 }
 
 .our-mission-area {
@@ -2798,7 +2805,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .token-information h6{
     font-size: 22px;
     text-transform: uppercase;
-    font-family: "Alfa Slab One", cursive;
+    font-family: myFirstFont;
     margin-bottom: 0
 }
 .token-information p{
@@ -2972,7 +2979,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .service_single_content h6 {
     margin-bottom: 15px;
     font-size: 22px;
-    font-family: "Alfa Slab One", cursive;
+    font-family: myFirstFont;
 }
 
 .side-feature-list-item {
@@ -3382,7 +3389,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     letter-spacing: 2px;
     line-height: 24px;
     margin: 0 0 15px 0;
-    font-family: "Alfa Slab One", cursive;
+    font-family: myFirstFont;
     color: #fff;
 }
 
@@ -5337,7 +5344,7 @@ textarea:required {
 }
 .pre-price{
     margin: 50px 0 30px;
-    font-family: "Alfa Slab One", cursive
+    font-family: myFirstFont
 }
 .ico-progress li.strength {
    float: right;
